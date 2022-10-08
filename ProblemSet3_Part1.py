@@ -1,8 +1,9 @@
-/*-PS3: Code Block 1--*/
+#%%
+#/*-PS3: Code Block 1--*/
 
 mountain = "Denali"
-nickname = 'Mt. McKinley'
-elevation == 20322 
+nickname = '"Mt. McKinley"'
+elevation = "20322"
 
-print (mountain + ", formerly known as "" + nickname + ",)
-print ()"is " + elevation + '' above sea level.' )
+print(mountain + ", formerly \nknown as "+ nickname +" \nis " + elevation + "' above sea level." )
+#%%
