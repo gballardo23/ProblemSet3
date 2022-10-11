@@ -32,6 +32,10 @@ user_input = input("Enter an integer: ")
 for user_input in range(3):
     user_numbers.append(user_input)
     print(user_numbers.sort())
-    
-    
+
+#%%
+#Task 3 Challenge
+
+#%%
+
 
