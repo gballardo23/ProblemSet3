@@ -51,13 +51,10 @@ for headerLineString in lineList[1:]:
 #%% Task 4.4
 
 #Create vessel ID variable and assign the value 258799000 to it
-vesselID = 258799000
+vesselID = "258799000"
 
 #Lookup the fleet value for the vessel with MMSI=vesselID value in the dictionary
-vesselDict[fleet, vesselID]
-
-#Change vesselID to a string
-str(vesselID)
+print(vesselDict[vesselID])
 
 #Print the statement: Vessel # 258799000 flies the flag of Norway
-print("Vessel #" + vesselID + " flies the flag of Norway")
+print("Vessel #" + vesselID + " flies the flag of " + vesselDict[vesselID])
